@@ -22,6 +22,7 @@ if not is_admin():
         None, "runas", sys.executable, " ".join(sys.argv), None, 1)
     sys.exit()
 
+
 # Configure logging
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -39,21 +40,63 @@ pydirectinput.PAUSE = 0.1  # Add a small pause between actions
 user32 = ctypes.windll.user32
 
 
+def resource_path(relative_path):
+    """Get absolute path to resource, works for dev and for PyInstaller"""
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+        logger.info(f"Running in PyInstaller bundle. Base path: {base_path}")
+    except Exception:
+        base_path = os.path.abspath(".")
+        logger.info(f"Running as script. Base path: {base_path}")
+
+    full_path = os.path.join(base_path, relative_path)
+    logger.info(f"Resource path for '{relative_path}': {full_path}")
+    return full_path
+
+
 def setup():
-    """Initialize settings and check for required files"""
-    logger.info(
-        "Starting hybrid automation script: Win32 mouse + PyDirectInput keyboard")
+    """Initialize and find the button image"""
+    logger.info("Starting setup")
 
-    # Check if the play again button screenshot exists
-    button_path = Path("play_again_button.png")
-    if not button_path.exists():
-        logger.error(
-            f"Cannot find 'play_again_button.png'. Please ensure the screenshot file is in the same directory.")
-        print(f"Error: Cannot find 'play_again_button.png'. Please ensure the screenshot file is in the same directory.")
-        return False
+    # Try multiple potential locations for the image
+    potential_paths = [
+        resource_path("play_again_button.png"),
+        os.path.abspath("play_again_button.png"),
+        os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                     "play_again_button.png"),
+        os.path.join(os.getcwd(), "play_again_button.png")
+    ]
 
-    logger.info(f"Found button image: {button_path.absolute()}")
-    return True
+    # Log all files in current directory and _MEIPASS if it exists
+    try:
+        logger.info(f"Files in current directory: {os.listdir(os.getcwd())}")
+        if hasattr(sys, '_MEIPASS'):
+            logger.info(f"Files in _MEIPASS: {os.listdir(sys._MEIPASS)}")
+    except Exception as e:
+        logger.error(f"Error listing directory contents: {e}")
+
+    # Try each path
+    button_path = None
+    for path in potential_paths:
+        try:
+            if os.path.exists(path):
+                button_path = path
+                logger.info(f"Found button image at: {button_path}")
+                break
+        except Exception as e:
+            logger.error(f"Error checking path {path}: {e}")
+
+    if button_path is None:
+        logger.error("Could not find 'play_again_button.png' in any location")
+        print("Error: Cannot find 'play_again_button.png'. Please ensure the screenshot file is in the same directory.")
+        print("Checked paths:")
+        for path in potential_paths:
+            print(f" - {path}")
+        return False, None
+
+    print(f"Found button image: {button_path}")
+    return True, button_path
 
 
 def find_and_click_button(image_path, confidence=0.7):
@@ -69,6 +112,7 @@ def find_and_click_button(image_path, confidence=0.7):
     """
     try:
         # Look for the button on screen
+        logger.info(f"Looking for button using image path: {image_path}")
         button_location = pyautogui.locateOnScreen(
             image_path, confidence=confidence, grayscale=True)
 
@@ -120,10 +164,18 @@ def press_x_key(duration=0.5):
 
 def main_loop():
     """Main loop to find and click the play again button, pressing X when necessary"""
-    if not setup():
-        return
+    setup_result = setup()
 
-    button_image = "play_again_button.png"
+    if isinstance(setup_result, tuple) and len(setup_result) == 2:
+        success, button_path = setup_result
+        if not success:
+            input("Press Enter to exit...")
+            return
+    else:
+        logger.error(f"Unexpected setup result: {setup_result}")
+        print("An error occurred during setup.")
+        input("Press Enter to exit...")
+        return
 
     print("Script is running. Press 'Q' to exit.")
 
@@ -138,7 +190,7 @@ def main_loop():
             print("Looking for 'Play Again' button...")
 
             # Try to find and click the button
-            if find_and_click_button(button_image):
+            if find_and_click_button(button_path):
                 print("Found and clicked 'Play Again' button!")
                 # Wait for game to load, adjust time as needed
                 time.sleep(0.5)
@@ -155,7 +207,12 @@ def main_loop():
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
         print(f"An error occurred: {str(e)}")
+        input("Press Enter to exit...")
 
 
 if __name__ == "__main__":
+    print("=== Auto Play Again Script ===")
+    print("Starting up...")
     main_loop()
+    print("Script has ended.")
+    time.sleep(1)
