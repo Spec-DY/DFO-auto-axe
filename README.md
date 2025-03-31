@@ -9,6 +9,6 @@
 
 
 
- The logic of this script very simple: 
+ The logic of this script is very simple: 
 **looking for play again button and then click it, if not then press 'x'**
 
