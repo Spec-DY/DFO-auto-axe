@@ -1,0 +1,193 @@
+2025-03-30 22:32:35,632 - INFO - Starting hybrid automation script: Win32 mouse + PyDirectInput keyboard
+2025-03-30 22:32:35,632 - INFO - Found button image: C:\Users\g3712\OneDrive\×ÀÃæ\Practice\projects\DFO\play_again_button.png
+2025-03-30 22:32:35,821 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:35,822 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:36,525 - INFO - Released X key
+2025-03-30 22:32:37,576 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:37,578 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:38,281 - INFO - Released X key
+2025-03-30 22:32:39,325 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:39,326 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:40,029 - INFO - Released X key
+2025-03-30 22:32:41,089 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:41,090 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:41,793 - INFO - Released X key
+2025-03-30 22:32:42,845 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:42,846 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:43,549 - INFO - Released X key
+2025-03-30 22:32:44,602 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:44,603 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:45,305 - INFO - Released X key
+2025-03-30 22:32:46,357 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:46,358 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:47,059 - INFO - Released X key
+2025-03-30 22:32:48,105 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:48,106 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:48,808 - INFO - Released X key
+2025-03-30 22:32:49,856 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:49,857 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:50,560 - INFO - Released X key
+2025-03-30 22:32:51,607 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:51,608 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:52,311 - INFO - Released X key
+2025-03-30 22:32:53,356 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:53,357 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:54,060 - INFO - Released X key
+2025-03-30 22:32:55,111 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:55,112 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:55,814 - INFO - Released X key
+2025-03-30 22:32:56,864 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:56,865 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:57,568 - INFO - Released X key
+2025-03-30 22:32:58,619 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:32:58,621 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:32:59,323 - INFO - Released X key
+2025-03-30 22:33:00,371 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:33:00,373 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:33:01,075 - INFO - Released X key
+2025-03-30 22:33:02,123 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:33:02,124 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:33:02,827 - INFO - Released X key
+2025-03-30 22:33:03,872 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:33:03,874 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:33:04,576 - INFO - Released X key
+2025-03-30 22:33:05,625 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:33:05,626 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:33:06,328 - INFO - Released X key
+2025-03-30 22:33:07,817 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:33:07,818 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:33:08,521 - INFO - Released X key
+2025-03-30 22:33:09,573 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:33:09,575 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:33:10,277 - INFO - Released X key
+2025-03-30 22:33:11,327 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:33:11,328 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:33:12,030 - INFO - Released X key
+2025-03-30 22:33:13,074 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:33:13,076 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:33:13,779 - INFO - Released X key
+2025-03-30 22:33:13,895 - INFO - Script interrupted by user
+2025-03-30 22:34:24,039 - INFO - Starting hybrid automation script: Win32 mouse + PyDirectInput keyboard
+2025-03-30 22:34:24,039 - INFO - Found button image: C:\Users\g3712\OneDrive\×ÀÃæ\Practice\projects\DFO\play_again_button.png
+2025-03-30 22:34:24,194 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:24,195 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:24,898 - INFO - Released X key
+2025-03-30 22:34:25,946 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:25,947 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:26,648 - INFO - Released X key
+2025-03-30 22:34:27,693 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:27,694 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:28,397 - INFO - Released X key
+2025-03-30 22:34:29,447 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:29,448 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:30,151 - INFO - Released X key
+2025-03-30 22:34:31,194 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:31,196 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:31,899 - INFO - Released X key
+2025-03-30 22:34:32,953 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:32,955 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:33,657 - INFO - Released X key
+2025-03-30 22:34:34,704 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:34,705 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:35,408 - INFO - Released X key
+2025-03-30 22:34:36,455 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:36,457 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:37,159 - INFO - Released X key
+2025-03-30 22:34:38,208 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:38,209 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:38,912 - INFO - Released X key
+2025-03-30 22:34:39,956 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:39,957 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:40,660 - INFO - Released X key
+2025-03-30 22:34:41,709 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:41,711 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:42,413 - INFO - Released X key
+2025-03-30 22:34:43,459 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:43,460 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:44,163 - INFO - Released X key
+2025-03-30 22:34:45,212 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:45,213 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:45,916 - INFO - Released X key
+2025-03-30 22:34:46,965 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:46,966 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:47,669 - INFO - Released X key
+2025-03-30 22:34:48,714 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:48,715 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:49,418 - INFO - Released X key
+2025-03-30 22:34:50,463 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:50,464 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:51,166 - INFO - Released X key
+2025-03-30 22:34:52,217 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:52,218 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:52,921 - INFO - Released X key
+2025-03-30 22:34:53,968 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:53,970 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:54,672 - INFO - Released X key
+2025-03-30 22:34:55,716 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:55,717 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:56,420 - INFO - Released X key
+2025-03-30 22:34:57,467 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:57,469 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:58,171 - INFO - Released X key
+2025-03-30 22:34:59,217 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:34:59,218 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:34:59,920 - INFO - Released X key
+2025-03-30 22:35:00,966 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:35:00,967 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:35:01,670 - INFO - Released X key
+2025-03-30 22:35:02,725 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:35:02,727 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:35:03,429 - INFO - Released X key
+2025-03-30 22:35:04,473 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:35:04,474 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:35:05,176 - INFO - Released X key
+2025-03-30 22:35:06,224 - ERROR - Error finding button: expected an image filename, OpenCV numpy array, or PIL image
+2025-03-30 22:35:06,226 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:35:06,929 - INFO - Released X key
+2025-03-30 22:35:06,981 - INFO - Script interrupted by user
+2025-03-30 22:37:44,970 - INFO - Starting hybrid automation script: Win32 mouse + PyDirectInput keyboard
+2025-03-30 22:37:44,970 - INFO - Found button image: C:\Users\g3712\OneDrive\×ÀÃæ\Practice\projects\DFO\play_again_button.png
+2025-03-30 22:37:45,282 - ERROR - Error finding button: 
+2025-03-30 22:37:45,284 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:37:45,988 - INFO - Released X key
+2025-03-30 22:37:47,191 - ERROR - Error finding button: 
+2025-03-30 22:37:47,193 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:37:47,896 - INFO - Released X key
+2025-03-30 22:37:49,305 - INFO - Successfully clicked button at: Point(x=np.int64(949), y=np.int64(1018))
+2025-03-30 22:37:50,006 - ERROR - Error finding button: 
+2025-03-30 22:37:50,008 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:37:50,711 - INFO - Released X key
+2025-03-30 22:37:51,916 - ERROR - Error finding button: 
+2025-03-30 22:37:51,919 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:37:52,621 - INFO - Released X key
+2025-03-30 22:37:53,835 - ERROR - Error finding button: 
+2025-03-30 22:37:53,837 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:37:54,540 - INFO - Released X key
+2025-03-30 22:37:55,749 - ERROR - Error finding button: 
+2025-03-30 22:37:55,751 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:37:56,453 - INFO - Released X key
+2025-03-30 22:37:57,658 - ERROR - Error finding button: 
+2025-03-30 22:37:57,660 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:37:58,363 - INFO - Released X key
+2025-03-30 22:37:59,566 - ERROR - Error finding button: 
+2025-03-30 22:37:59,568 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:38:00,270 - INFO - Released X key
+2025-03-30 22:38:01,689 - INFO - Successfully clicked button at: Point(x=np.int64(949), y=np.int64(1018))
+2025-03-30 22:38:02,393 - ERROR - Error finding button: 
+2025-03-30 22:38:02,395 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:38:03,097 - INFO - Released X key
+2025-03-30 22:38:04,298 - ERROR - Error finding button: 
+2025-03-30 22:38:04,300 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:38:05,003 - INFO - Released X key
+2025-03-30 22:38:06,411 - INFO - Successfully clicked button at: Point(x=np.int64(949), y=np.int64(1018))
+2025-03-30 22:38:07,118 - ERROR - Error finding button: 
+2025-03-30 22:38:07,121 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:38:07,825 - INFO - Released X key
+2025-03-30 22:38:09,031 - ERROR - Error finding button: 
+2025-03-30 22:38:09,033 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:38:09,735 - INFO - Released X key
+2025-03-30 22:38:11,142 - INFO - Successfully clicked button at: Point(x=np.int64(949), y=np.int64(1018))
+2025-03-30 22:38:11,843 - ERROR - Error finding button: 
+2025-03-30 22:38:11,845 - INFO - Pressing X key for 0.5 seconds using PyDirectInput
+2025-03-30 22:38:12,548 - INFO - Released X key
+2025-03-30 22:38:13,548 - INFO - User pressed Q key, exiting script

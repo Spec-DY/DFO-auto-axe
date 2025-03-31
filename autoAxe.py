@@ -2,10 +2,25 @@ import ctypes
 import pyautogui  # For image recognition only
 import pydirectinput  # For keyboard input
 import time
+import sys
 import os
 import logging
 import keyboard  # For script control
 from pathlib import Path
+
+
+def is_admin():
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except:
+        return False
+
+
+if not is_admin():
+    # Re-run the program with admin rights
+    ctypes.windll.shell32.ShellExecuteW(
+        None, "runas", sys.executable, " ".join(sys.argv), None, 1)
+    sys.exit()
 
 # Configure logging
 logging.basicConfig(level=logging.INFO,
